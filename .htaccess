@@ -1,0 +1,2 @@
+Options -indexes
+ErrorDocument 404 http://localhost/lettrecom/error.php

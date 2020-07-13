@@ -1,0 +1,35 @@
+
+
+a {
+  color: black;
+  font-size: large;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+
+}
+
+
+.navstyle:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+  }
+  
+  .navstyle:hover {
+    color: #0d0d0d;
+  }
+  
+  .navstyle:hover:after{
+    width: 100%;
+  }
+
+  #en-cours{
+
+ color: #56baed;
+  }

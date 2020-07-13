@@ -1,0 +1,137 @@
+.bouton2 {
+    padding:6px 0 6px 0;
+    margin-bottom: 5px;
+	font:bold 13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:100px;
+	border:none;
+}
+
+th{
+    background-color: #56baed;
+}
+
+.separe{
+    line-height: 100px;
+}
+
+.espace{
+
+    margin-bottom: 10px;
+}
+.btn-circleS, .btn-circleA {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;  
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+
+  .btn-circleS{
+      margin-left: 60px;
+  }
+ 
+
+.jour{
+    margin-bottom: 10px;
+    
+    
+}
+.heure{
+    margin-bottom: 5px;
+    
+    
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+
+
+
+
+.formulaire{
+
+    margin-top: 100px;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+    float: right;
+}
+
+
+.btnEffacer
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: red;
+    color: #fff;
+    float: left;
+}
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(right,#56baed,#0004ff );
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.btn {
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+ }
+
+ .btn.btnConsult {
+	font-size: 16px; 
+	border: 2px solid #56baed; 
+    background:transparent;
+	padding:10px 35px; 
+	text-transform:uppercase;
+    border-radius:30px;
+    color:#56baed;
+}
+
+.btn.btnConsult:hover {
+    background:#56baed;
+    border-radius:0;
+    border: 2px solid #56baed;
+    color:white;
+} 
+
+.btn.btnRetour {
+	font-size: 16px; 
+	border: 2px solid red; 
+    background:transparent;
+	padding:10px 35px; 
+	text-transform:uppercase;
+    border-radius:30px;
+    color:red;
+}
+
+.btn.btnRetour:hover {
+    background:red;
+    border-radius:0;
+    border: 2px solid red;
+    color:white;
+} 
+
